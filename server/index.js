@@ -5,6 +5,8 @@ const io = require("socket.io")(httpServer, {
   },
 });
 
+const PORT = process.env.PORT || 3000;
+
 io.use((socket, next) => {
   const username = socket.handshake.auth.username;
   if (!username) {
@@ -44,8 +46,6 @@ io.on("connection", (socket) => {
     socket.broadcast.emit("user disconnected", socket.id);
   });
 });
-
-const PORT = process.env.PORT || 3000;
 
 httpServer.listen(PORT, () =>
   console.log(`server listening at http://localhost:${PORT}`)
