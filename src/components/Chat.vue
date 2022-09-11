@@ -78,7 +78,7 @@
           user.self = user.userID === socket.id;
           initReactiveProperties(user);
         });
-        // put the current user first, and sort by username
+
         this.users = users.sort((a, b) => {
           if (a.self) return -1;
           if (b.self) return 1;
@@ -137,8 +137,9 @@
     bottom: 0;
     width: 260px;
     overflow-x: hidden;
-    background-color: #3f0e40;
+    background-color: #ff0000;
     color: white;
+    font-size: medium;
   }
   
   .right-panel {

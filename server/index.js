@@ -2,7 +2,7 @@ const httpServer = require("http").createServer();
 const PORT = process.env.PORT || 3000;
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: "http://localhost:8081",
+    origin: "http://localhost:8080",
   },
 });
 

@@ -49,13 +49,8 @@ body {
   margin: 0;
 }
 
-@font-face {
-  font-family: Lato;
-  src: url("/fonts/Lato-Regular.ttf");
-}
-
 #app {
-  font-family: Lato, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
 }
 </style>
