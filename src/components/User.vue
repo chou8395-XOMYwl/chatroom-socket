@@ -36,7 +36,7 @@
   
   <style scoped>
   .selected {
-    background-color: #1164a3;
+    background-color: #0d00ff;
   }
   
   .user {
@@ -48,7 +48,7 @@
   }
   
   .status {
-    color: #92959e;
+    color: #ffffff;
   }
   
   .new-messages {

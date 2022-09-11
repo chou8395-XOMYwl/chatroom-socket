@@ -139,7 +139,7 @@
     overflow-x: hidden;
     background-color: #ff0000;
     color: white;
-    font-size: medium;
+    font-size: large;
   }
   
   .right-panel {

@@ -50,7 +50,7 @@ body {
 }
 
 #app {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
 }
 </style>
